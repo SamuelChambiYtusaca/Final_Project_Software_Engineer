@@ -1,9 +1,9 @@
 # Implementacion de estilos de Programacion
 ## Code-Golf
 Constraints:
+
 - As few lines of code as possible
 
-[Implementacion](evento_model.py)
 ```
     def get_event(self, id):
         params = {'id': id}
@@ -26,7 +26,8 @@ Constraints:
 - Capsules can reappropriate procedures defined in other capsules
 
 Implementacion de la clase.
-[Implementacion](ponente.py)
+
+
 ```
 class PonenteModel:
     def __init__(_id, _nombre, _apellidos, _correo):
@@ -49,13 +50,13 @@ class PonenteModel:
 ```
 
 ## Declared Intentions
+
 Constraints:
 - Existence of a run-time typechecker
 - Procedures and functions declare what types of arguments they expect
-- If callers send arguments of types that are't expected, the procedures/functions are not executed
+- If callers send arguments of types that aren't expected, the procedures/functions are not executed
 
 Las diferentes conexiones y querys a la base de datos son gestionadas con try-catch para no ejecutar codigo en caso obtener un error.
-[Implementacion](evento_model.py)
 
 ```
 class EventoModel:
