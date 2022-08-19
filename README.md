@@ -113,7 +113,7 @@ class EventoModel:
         return data
 ```
 
-#Implementacion de practicas de codificacion legible
+# Implementacion de practicas de codificacion legible
 
 ## Choose descriptive and unambiguous names.
 Los nombres de las variables guardan relacion con la abstraccion de la funcion.
