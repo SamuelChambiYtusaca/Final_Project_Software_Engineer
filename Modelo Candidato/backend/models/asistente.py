@@ -1,4 +1,5 @@
 from backend.models.connection_pool import MySQLPool
+
 class AsistenteModel:
     def __init__(self):
         self.mysql_pool = MySQLPool()
@@ -13,6 +14,7 @@ class AsistenteModel:
             data.append(content)
             content = {}
         return data
+
     def get_all_asistentes(self):
         rv = self.mysql_pool.execute("select * from usuario")
         data = []

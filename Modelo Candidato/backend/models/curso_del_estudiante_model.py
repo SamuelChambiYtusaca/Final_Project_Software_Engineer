@@ -1,6 +1,6 @@
 from backend.models.connection_pool import MySQLPool
 
-class CursoDelEstudianteModel:
+CursoDelEstudianteModel:
     def __init__(self):        
         self.mysql_pool = MySQLPool()
 
