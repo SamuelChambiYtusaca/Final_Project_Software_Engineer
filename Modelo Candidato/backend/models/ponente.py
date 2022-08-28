@@ -16,3 +16,5 @@ class PonenteModel:
         self.apellidos = _apellidos
     def set_correo(self, _correo):
         self.correo = _correo
+    def get_info(self):
+        return get_nombre(self) + get_apellidos(self) + get_correo(self)
